@@ -27,3 +27,9 @@ class Shift:
 
     def setDay(self, day):
         self.day = day
+
+    def getShift(self):
+        return(self.startTime, self.endTime, self.day)
+
+    def __str__(self):
+        return(self.startTime, self.endTime, self.day)
